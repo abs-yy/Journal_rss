@@ -29,7 +29,10 @@ print '
 <body>
 <h2>RSS parser</h2>
 <h3>A parser of rss of journals of my liking, if you want a journal to be added, pls contact me.</h3>
-<h4>Author : |.+|</h4>
+<h4>Author : |.+|<br>
+Hosted on Github : https://github.com/t12968yy/Journal_rss
+</h4>
+
 <h3>Usage</h3>
 <p>Access http://web.sfc.keio.ac.jp/~t12968yy/rss/reader.cgi for normal rss.<br>
 For parameters, add "&" to the link and the following to your liking<br>
