@@ -5,14 +5,22 @@ use warnings;
 use lib qw {/home/t12968yy/perl5/lib/perl5};
 use XML::FeedPP;
 
+#$ENV{'QUERY_STRING'} = "filter=DNA&text=no";
+my %param = map { /([^=]+)=(.+)/ } (split /&/, $ENV{'QUERY_STRING'});
+$param{$_} =~ s/%20/ / foreach keys %param;
+
+
 my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime(time);
 $year += 1900;
 $mon += 1;
 
-if(  -e "log/".$year."_".$mon."_".sprintf("%02d", $mday).".txt" ){
-    open my $fl, "<","log/".$year."_".$mon."_".sprintf("%02d", $mday).".txt";
-    print join("\n", <$fl>)."\n";
-    exit(0);
+for(;;){
+    if(  -e "log/".$year."_".$mon."_".sprintf("%02d", $mday).".txt"){
+	last if $param{remake} eq "yes";
+	open my $fl, "<","log/".$year."_".$mon."_".sprintf("%02d", $mday).".txt";
+	print join("\n", <$fl>)."\n";
+	exit(0);
+    }
 }
 
 my %journals;
@@ -48,6 +56,7 @@ Hosted on Github : https://github.com/t12968yy/Journal_rss
 For parameters, add "&" to the link and the following to your liking<br>
   / <b>filter</b>= "your filter"    # will filter the description and title with your query (not upper case sensitive & space OK)<br>
   / <b>text</b>=no    # will only $output .=  titles;</p>
+  / <b>remake</b>=yes    # will remake output. Remake when adding parameters.
 <h4>History</h4>
 <p>2015-11-08 : Alpha version 0.01 released.
 2015-11-09 : v0.21 released. Added logging system for fast access for multiple accesses
@@ -55,15 +64,9 @@ For parameters, add "&" to the link and the following to your liking<br>
 ';
 
 
-#$ENV{'QUERY_STRING'} = "filter=DNA&text=no";
-my %param = map { /([^=]+)=(.+)/ } (split /&/, $ENV{'QUERY_STRING'});
-$param{$_} =~ s/%20/ / foreach keys %param;
-
 $output .=  "<h4>Parameters in cgi</h4>\n<ul>\n";
 $output .=  "<li>".$_." : \"".$param{$_}."\"</li>\n" foreach keys %param;
 $output .=  "</ul>\n<p>";
-
-
 
 $output .= defined $param{filter} ? 'Filter is set to "'.$param{filter}.'"<br>' : 'No filter, showing all articles<br>';
 $output .= defined $param{text} ? 'Showing only titles<br>' :  'Showing full text<br>';
@@ -76,9 +79,10 @@ foreach my $journal ( sort keys %journals ) {
 $output .=  "</ul>\n";
 
 foreach my $journal ( sort keys %journals ) {
+    my $feed    = XML::FeedPP->new( $journals{$journal} );
     $output .=  '<h2 id ='.$journal.'><b>> '.$journal."</h2>".$journals{$journal}."</b>\n\n";
 #    $output .=  '<a href="reader.cgi#top>Return to top</a>'."\n";
-    my $feed    = XML::FeedPP->new( $journals{$journal} );
+
     foreach my $item ($feed->get_item()) {
 	my $flag =  $item->title() =~ /$param{filter}/i || $item->description() =~ /$param{filter}/i ? 1 : 0;
 	if( $flag ) {

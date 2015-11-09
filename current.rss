@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns="http://purl.org/rss/1.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xsi:schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns# uri:atypon.com:cms:schema:rdf.xsd">
+   <channel rdf:about="http://www.cell.com/archive?publicationCode=cell&amp;rss=yes">
+      <title>Cell</title>
+      <description>Cell RSS feed. For more than 30 years, top international researchers have relied on Cell to publish high impact papers that have come to form the foundation of contemporary life science research.  Founded by Benjamin Lewin (author of Genes), Cell remains at the forefront of exciting developments in biology, continually redefining the important areas of science with cutting edge papers. Published biweekly, Cell includes original research articles of exceptional significance in areas including molecular biology, biochemistry, cancer research, cell biology, developmental biology, genetics, immunology, microbiology, neurobiology, plant biology, structural biology and virology. Submitted articles are reviewed rapidly for both technical quality and general interest, and, if accepted, are published within eight weeks. Cell features topical minireview and review articles in which noted scientists discuss current progress in all areas of the life sciences. Cell also publishes commentaries, meeting reviews, letters to the editor, and book reviews, as well as Positions Available and listings of Conferences and Courses.Visit the Cell website to find out more -  http://www.cell.com.</description>
+      <link>http://www.cell.com/archive?publicationCode=cell&amp;rss=yes</link>
+      <dc:publisher>Elsevier Inc.</dc:publisher>
+      <dc:language>en</dc:language>
+      <dc:rights>© 2015 Published by Elsevier Inc. All rights reserved.</dc:rights>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:issn>0092-8674</prism:issn>
+      <prism:publicationDate>2015-11-06-08:00</prism:publicationDate>
+      <prism:copyright>© 2015 Published by Elsevier Inc. All rights reserved.</prism:copyright>
+      <prism:rightsAgent>permissionshelpdesk@elsevier.com</prism:rightsAgent>
+      <items>
+         <rdf:Seq>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01406-3?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01411-7?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01344-6?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01331-8?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01316-1?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01315-X?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01330-6?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01325-2?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01321-5?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01417-8?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01416-6?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01415-4?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01414-2?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01413-0?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01412-9?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01410-5?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01409-9?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01408-7?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01401-4?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01400-2?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01398-7?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01354-9?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01353-7?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01352-5?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01351-3?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01349-5?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01348-3?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01341-0?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01340-9?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01339-2?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01337-9?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01336-7?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01327-6?rss=yes"/>
+            <rdf:li rdf:resource="http://www.cell.com/cell/abstract/S0092-8674(15)01326-4?rss=yes"/>
+         </rdf:Seq>
+      </items>
+   </channel>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01406-3?rss=yes">
+      <title>Broadly Neutralizing Alphavirus Antibodies Bind an Epitope on E2 and Inhibit Entry and Egress</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01406-3?rss=yes</link>
+      <description>A class of broadly neutralizing monoclonal antibodies identified here protects against infection and disease in vivo against multiple alphaviruses, including chikungunya. These antibodies bind a discrete epitope on the alphavirus E2 glycoprotein, block viral entry and egress, and allow cross-linking of adjacent E2 protein spikes, suggesting avenues for possible vaccine- or antibody-based therapeutic development against multiple alphaviruses.</description>
+      <dc:title>Broadly Neutralizing Alphavirus Antibodies Bind an Epitope on E2 and Inhibit Entry and Egress</dc:title>
+      <dc:creator>Julie M. Fox, Feng Long, Melissa A. Edeling, Hueylie Lin, Mareike K.S. van Duijl-Richter, Rachel H. Fong, Kristen M. Kahle, Jolanda M. Smit, Jing Jin, Graham Simmons, Benjamin J. Doranz, James E. Crowe, Daved H. Fremont, Michael G. Rossmann, Michael S. Diamond</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.050</dc:identifier>
+      <dc:source>Cell (2015)</dc:source>
+      <dc:date>2015-11-06</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-06</prism:publicationDate>
+      <prism:section>Article</prism:section>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01411-7?rss=yes">
+      <title>Molecular Mechanism of V(D)J Recombination from Synaptic RAG1-RAG2 Complex Structures</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01411-7?rss=yes</link>
+      <description>Cryo-EM structures of synaptic RAG complexes reveal a recombination signal sequence (RSS)-induced closed conformation that enables catalytic activation and explain the molecular basis for the 12/23 rule, a dogma in which 12-RSS and 23-RSS flanking the V, D, and J segments are synapsed.</description>
+      <dc:title>Molecular Mechanism of V(D)J Recombination from Synaptic RAG1-RAG2 Complex Structures</dc:title>
+      <dc:creator>Heng Ru, Melissa G. Chambers, Tian-Min Fu, Alexander B. Tong, Maofu Liao, Hao Wu</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.055</dc:identifier>
+      <dc:source>Cell (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:section>Article</prism:section>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01344-6?rss=yes">
+      <title>MAJIN Links Telomeric DNA to the Nuclear Membrane by Exchanging Telomere Cap</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01344-6?rss=yes</link>
+      <description>During meiosis, telomeres experience a cap exchange process in which a protein complex localized at the inner nuclear membrane replaces the protective cap of chromosomes to ensure telomere tethering for correct chromosome recombination.</description>
+      <dc:title>MAJIN Links Telomeric DNA to the Nuclear Membrane by Exchanging Telomere Cap</dc:title>
+      <dc:creator>Hiroki Shibuya, Abrahan Hernández-Hernández, Akihiro Morimoto, Lumi Negishi, Christer Höög, Yoshinori Watanabe</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.030</dc:identifier>
+      <dc:source>Cell (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:section>Article</prism:section>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01331-8?rss=yes">
+      <title>Relaxation of Loaded ESCRT-III Spiral Springs Drives Membrane Deformation</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01331-8?rss=yes</link>
+      <description>A component of the ESCRT-III membrane fission machinery self-organizes into spiral springs that trigger membrane deformation when released.</description>
+      <dc:title>Relaxation of Loaded ESCRT-III Spiral Springs Drives Membrane Deformation</dc:title>
+      <dc:creator>Nicolas Chiaruttini, Lorena Redondo-Morata, Adai Colom, Frédéric Humbert, Martin Lenz, Simon Scheuring, Aurélien Roux</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.017</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-10-29</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-10-29</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>866</prism:startingPage>
+      <prism:endingPage>879</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01316-1?rss=yes">
+      <title>Surveillance and Processing of Foreign DNA by the  CRISPR-Cas System</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01316-1?rss=yes</link>
+      <description>Single-molecule analysis of the bacterial Cascade complex reveals two distinct pathways leading to differential regulation of Cas3 DNA translocase and nuclease activities.</description>
+      <dc:title>Surveillance and Processing of Foreign DNA by the  CRISPR-Cas System</dc:title>
+      <dc:creator>Sy Redding, Samuel H. Sternberg, Myles Marshall, Bryan Gibb, Prashant Bhat, Chantal K. Guegler, Blake Wiedenheft, Jennifer A. Doudna, Eric C. Greene</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.003</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-10-29</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-10-29</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>854</prism:startingPage>
+      <prism:endingPage>865</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01315-X?rss=yes">
+      <title>Histone H3 Threonine Phosphorylation Regulates Asymmetric Histone Inheritance in the  Male Germline</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01315-X?rss=yes</link>
+      <description>A transient mitosis-specific phosphate modification on histone H3 distinguishes pre-existing and newly synthesized histones and is required for the asymmetric segregation of sister chromatids—one enriched with new histones and the other with old—during stem cell division.</description>
+      <dc:title>Histone H3 Threonine Phosphorylation Regulates Asymmetric Histone Inheritance in the  Male Germline</dc:title>
+      <dc:creator>Jing Xie, Matthew Wooten, Vuong Tran, Bi-Chang Chen, Caitlin Pozmanter, Christine Simbolon, Eric Betzig, Xin Chen</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.002</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-10-29</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-10-29</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>920</prism:startingPage>
+      <prism:endingPage>933</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01330-6?rss=yes">
+      <title>Chromosomal Loop Domains Direct the Recombination of Antigen Receptor Genes</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01330-6?rss=yes</link>
+      <description>The 3D architecture of the genome harnesses RAG endonuclease activity by allowing it to directionally locate convergent recombination signal sequences and related CAC-containing motifs within individual chromatin loop domains.</description>
+      <dc:title>Chromosomal Loop Domains Direct the Recombination of Antigen Receptor Genes</dc:title>
+      <dc:creator>Jiazhi Hu, Yu Zhang, Lijuan Zhao, Richard L. Frock, Zhou Du, Robin M. Meyers, Fei-long Meng, David G. Schatz, Frederick W. Alt</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.016</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-10-22</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-10-22</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>947</prism:startingPage>
+      <prism:endingPage>959</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01325-2?rss=yes">
+      <title>5′ UTR mA Promotes Cap-Independent Translation</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01325-2?rss=yes</link>
+      <description>N6-methyladenosine (m6A) residues within the 5′ UTR of mRNAs promote translation initiation through a mechanism that does not require the 5′ cap or cap-binding proteins. Diverse cellular stresses selectively increase the levels of m6A within 5′ UTRs, suggesting that 5′ UTR m6A is important for mediating stress-induced translational responses.</description>
+      <dc:title>5′ UTR mA Promotes Cap-Independent Translation</dc:title>
+      <dc:creator>Kate D. Meyer, Deepak P. Patil, Jun Zhou, Alexandra Zinoviev, Maxim A. Skabkin, Olivier Elemento, Tatyana V. Pestova, Shu-Bing Qian, Samie R. Jaffrey</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.012</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-10-22</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-10-22</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>999</prism:startingPage>
+      <prism:endingPage>1010</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01321-5?rss=yes">
+      <title>Structural and Mechanistic Basis of PAM-Dependent Spacer Acquisition in CRISPR-Cas Systems</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01321-5?rss=yes</link>
+      <description>Cas1 and Cas2 select an invading DNA sequence, termed protospacer, for insertion into the CRISPR locus of the host cell. The structure of the Cas1-Cas2-protospacer DNA complex reveals the dual-forked nature of the protospacer, explains how the protospacer is selected, and identifies how protospacer length is predetermined.</description>
+      <dc:title>Structural and Mechanistic Basis of PAM-Dependent Spacer Acquisition in CRISPR-Cas Systems</dc:title>
+      <dc:creator>Jiuyu Wang, Jiazhi Li, Hongtu Zhao, Gang Sheng, Min Wang, Maolu Yin, Yanli Wang</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.008</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-10-15</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-10-15</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>840</prism:startingPage>
+      <prism:endingPage>853</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01417-8?rss=yes">
+      <title>Net Works for Malaria Control</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01417-8?rss=yes</link>
+      <description>In just a couple days, Youyou Tu, William C. Campbell and Satoshi Ōmura will meet His Majesty King Carl XVI Gustaf of Sweden to receive the Nobel Prize in Physiology or Medicine. Tu’s discovery of artemisinin, a potent anti-malarial. and Campbell and Ōmura’s work on ivermectin, a broad-spectrum antiparasitic drug, has helped to mitigate the burden of parasitic diseases, especially in the developing world. Despite all effort and advances, stopping the spread of preventable parasitic diseases remains an unmet goal.</description>
+      <dc:title>Net Works for Malaria Control</dc:title>
+      <dc:identifier>10.1016/j.cell.2015.10.061</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Select</prism:section>
+      <prism:startingPage>779</prism:startingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01416-6?rss=yes">
+      <title>Peroxisomes Get Loud: A Redox Antidote to Hearing Loss</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01416-6?rss=yes</link>
+      <description>Pejvakin (PJVK), a protein originally identified in Persian families with sensorineural hearing loss, regulates peroxisomal dynamics and the antioxidant defense triggered by noise exposure in hair cells and auditory neurons of the inner ear. These findings bring peroxisomes to the forefront of noise-induced hearing loss research.</description>
+      <dc:title>Peroxisomes Get Loud: A Redox Antidote to Hearing Loss</dc:title>
+      <dc:creator>Pablo Mardones, Claudio Hetz</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.060</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Preview</prism:section>
+      <prism:startingPage>790</prism:startingPage>
+      <prism:endingPage>791</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01415-4?rss=yes">
+      <title>In This Issue</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01415-4?rss=yes</link>
+      <description>WANG ET AL., PAGE 840</description>
+      <dc:title>In This Issue</dc:title>
+      <dc:identifier>10.1016/j.cell.2015.10.059</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Leading Edge</prism:section>
+      <prism:startingPage>775</prism:startingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01414-2?rss=yes">
+      <title>Radical Sabbaticals</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01414-2?rss=yes</link>
+      <description>Growing up, I believed that academics were shielded from the clutter of everyday life and had the peace to think, discuss, perform the occasional experiment and think some more. After starting a research lab, however, I discovered there was not much peace in academia. The day was just not long enough to fit everything in, and though a sabbatical leave always lurked at the horizon, there never seemed to be a good moment to take a break.</description>
+      <dc:title>Radical Sabbaticals</dc:title>
+      <dc:identifier>10.1016/j.cell.2015.10.058</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Voices</prism:section>
+      <prism:startingPage>788</prism:startingPage>
+      <prism:endingPage>789</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01413-0?rss=yes">
+      <title>Aire Gets Company for Immune Tolerance</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01413-0?rss=yes</link>
+      <description>A specialized subset of epithelial cells in the thymus “promiscuously” transcribes thousands of peripheral genes to ensure that developing T cells can test their antigen receptors for dangerous autoreactivity. New findings by Takaba et al. indicate that the transcription factor Fezf2 acts independently of Aire in thymic epithelial cells to generate “genetic noise” for immunological tolerance.</description>
+      <dc:title>Aire Gets Company for Immune Tolerance</dc:title>
+      <dc:creator>Ludger Klein</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.057</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Preview</prism:section>
+      <prism:startingPage>794</prism:startingPage>
+      <prism:endingPage>795</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01412-9?rss=yes">
+      <title>Modifications on Translation Initiation</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01412-9?rss=yes</link>
+      <description>Two studies by Meyer et al. and Wang et al. demonstrate a role for m6A modification of mRNA in stimulating translation initiation. These findings add to the growing number of diverse mechanisms for translation initiation in eukaryotes.</description>
+      <dc:title>Modifications on Translation Initiation</dc:title>
+      <dc:creator>Sarah F. Mitchell, Roy Parker</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.056</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Preview</prism:section>
+      <prism:startingPage>796</prism:startingPage>
+      <prism:endingPage>798</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01410-5?rss=yes">
+      <title>SnapShot: T Cell Exhaustion</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01410-5?rss=yes</link>
+      <description>Exhaustion is a state of T cell differentiation common during chronic infection and cancer that results in T cell dysfunction. Exhausted T cells (TEX) progressively lose effector functions and develop defects in memory T cell properties due to exposure to persistent antigen and inflammation. Exhaustion can be reversed, at least partially, by blocking inhibitory pathways such as PD-1, resulting in improved pathogen or tumor control. To view this SnapShot, open or download the PDF.</description>
+      <dc:title>SnapShot: T Cell Exhaustion</dc:title>
+      <dc:creator>Kristen E. Pauken, E. John Wherry</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.054</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>SnapShot</prism:section>
+      <prism:startingPage>1038</prism:startingPage>
+      <prism:endingPage>1038.e1</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01409-9?rss=yes">
+      <title>A Gut Feeling about You</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01409-9?rss=yes</link>
+      <description>The “gut microbiota” is rapidly becoming a common term outside of the halls of science: it has been headlined in the New York Times, is the subject of several non-fiction books, and is regularly promoted on TV (probiotics, anyone…?). Many non-scientists may not remember or know the technical term microbiota, but mention the gut flora to them, and they’ll probably know what you’re referring to.</description>
+      <dc:title>A Gut Feeling about You</dc:title>
+      <dc:creator>Corinne F. Maurice</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.053</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Book Review</prism:section>
+      <prism:startingPage>785</prism:startingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01408-7?rss=yes">
+      <title>Regulators of Gut Motility Revealed by a Gnotobiotic Model of Diet-Microbiome Interactions Related to Travel</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01408-7?rss=yes</link>
+      <description>(Cell 163, 95–107; September 24, 2015)</description>
+      <dc:title>Regulators of Gut Motility Revealed by a Gnotobiotic Model of Diet-Microbiome Interactions Related to Travel</dc:title>
+      <dc:creator>Neelendu Dey, Vitas E. Wagner, Laura V. Blanton, Jiye Cheng, Luigi Fontana, Rashidul Haque, Tahmeed Ahmed, Jeffrey I. Gordon</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.052</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Erratum</prism:section>
+      <prism:startingPage>1037</prism:startingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01401-4?rss=yes">
+      <title>Adopting Rare Diseases</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01401-4?rss=yes</link>
+      <description>In the United States, rare diseases are defined as conditions affecting fewer than 200,000 individuals at any given time. Worldwide, an estimated 300 million people are affected by rare diseases, also known as “orphan diseases” because with few financial incentives for developing new treatments, the pharmaceutical industry did not “adopt” them. In his book entitled Orphan, Phillip Reilly paints a picture of several rare diseases and the quest to find treatments for them.</description>
+      <dc:title>Adopting Rare Diseases</dc:title>
+      <dc:creator>Mustafa Sahin</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.045</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Book Review</prism:section>
+      <prism:startingPage>786</prism:startingPage>
+      <prism:endingPage>787</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01400-2?rss=yes">
+      <title>Hippo Pathway in Organ Size Control, Tissue Homeostasis, and Cancer</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01400-2?rss=yes</link>
+      <description>In response to a variety of cellular signals, the Hippo pathway plays key roles in regulating tissue homeostasis, stemness, and cancer development.</description>
+      <dc:title>Hippo Pathway in Organ Size Control, Tissue Homeostasis, and Cancer</dc:title>
+      <dc:creator>Fa-Xing Yu, Bin Zhao, Kun-Liang Guan</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.044</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Review</prism:section>
+      <prism:startingPage>811</prism:startingPage>
+      <prism:endingPage>828</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01398-7?rss=yes">
+      <title>Histone Marks Direct Chromosome Segregation</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01398-7?rss=yes</link>
+      <description>Germline stem cells divide asymmetrically, producing a self-renewing stem cell and a differentiating progenitor. Xie et al. now show that this depends on two asymmetric events that together partition a genome copy, carrying the old histones to the stem cell daughter and a copy with new, unmarked histones to the differentiating daughter.</description>
+      <dc:title>Histone Marks Direct Chromosome Segregation</dc:title>
+      <dc:creator>Vincenzo Pirrotta</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.043</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Preview</prism:section>
+      <prism:startingPage>792</prism:startingPage>
+      <prism:endingPage>793</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01354-9?rss=yes">
+      <title>The LC Domain of hnRNPA2 Adopts Similar Conformations in Hydrogel Polymers, Liquid-like Droplets, and Nuclei</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01354-9?rss=yes</link>
+      <description>A chemical footprinting method reveals that polymers of low-complexity domains exhibit similar cross-β structure in hydrogels, liquid-like droplets, and nuclei of mammalian cells, suggesting a common underlying structural basis.</description>
+      <dc:title>The LC Domain of hnRNPA2 Adopts Similar Conformations in Hydrogel Polymers, Liquid-like Droplets, and Nuclei</dc:title>
+      <dc:creator>Siheng Xiang, Masato Kato, Leeju C. Wu, Yi Lin, Ming Ding, Yajie Zhang, Yonghao Yu, Steven L. McKnight</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.040</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>829</prism:startingPage>
+      <prism:endingPage>839</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01353-7?rss=yes">
+      <title>Design and Analysis of Single-Cell Sequencing Experiments</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01353-7?rss=yes</link>
+      <description>As the applications and accessibility of single-cell sequencing approaches expand, a number of tenets regarding experimental design and data analysis are important to keep in mind.</description>
+      <dc:title>Design and Analysis of Single-Cell Sequencing Experiments</dc:title>
+      <dc:creator>Dominic Grün, Alexander van Oudenaarden</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.039</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Primer</prism:section>
+      <prism:startingPage>799</prism:startingPage>
+      <prism:endingPage>810</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01352-5?rss=yes">
+      <title>Cardiomyocytes Replicate and their Numbers Increase in Young Hearts</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01352-5?rss=yes</link>
+      <description>In mice, the heart nearly quadruples in size from early preadolescence (postnatal day 10 [P10]) to puberty (∼P35) (Naqvi et al., 2014). Because it is widely believed that mammalian cardiomyocytes (CMs) are incapable of replication after birth, it has been assumed that early postnatal heart growth is driven solely by CM hypertrophy. Our findings question this view and provide insights into how thyroid hormone may regulate an increase in CM number during preadolescence. Alkass et al. (2015) and Soonpaa et al.</description>
+      <dc:title>Cardiomyocytes Replicate and their Numbers Increase in Young Hearts</dc:title>
+      <dc:creator>Nawazish Naqvi, Reena Singh, Siiri E. Iismaa, Ming Li, John W. Calvert, David I.K. Martin, Richard P. Harvey, Robert M. Graham, Ahsan Husain</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.038</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Correspondence</prism:section>
+      <prism:startingPage>783</prism:startingPage>
+      <prism:endingPage>784</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01351-3?rss=yes">
+      <title>Cardiomyocyte Cell-Cycle Activity during Preadolescence</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01351-3?rss=yes</link>
+      <description>Earlier studies (Soonpaa et al., 1996) revealed a rapid drop-off of ventricular cardiomyocyte cell-cycle activity at birth in mice, followed by a burst of DNA synthesis during the first week of postnatal life which contributed to the formation of multi-nucleated cardiomyocytes by postnatal day 10 (PN10). It has recently been suggested that a second burst of cardiomyocyte cell-cycle activity occurs during preadolescence, between PN14 and PN18, resulting in a 40% increase in cardiomyocyte number (Naqvi et al., 2014).</description>
+      <dc:title>Cardiomyocyte Cell-Cycle Activity during Preadolescence</dc:title>
+      <dc:creator>Mark H. Soonpaa, David C. Zebrowski, Colin Platt, Anthony Rosenzweig, Felix B. Engel, Loren J. Field</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.037</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Correspondence</prism:section>
+      <prism:startingPage>781</prism:startingPage>
+      <prism:endingPage>782</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01349-5?rss=yes">
+      <title>No Evidence for Cardiomyocyte Number Expansion in Preadolescent Mice</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01349-5?rss=yes</link>
+      <description>Contrary to a recent report suggesting that a preadolescent burst of cardiomyocyte proliferation promotes heart growth, cardiomyocyte number expansion appears limited to the neonatal period, with cardiomyocyte hypertrophy likely accounting for the increase in the heart size.</description>
+      <dc:title>No Evidence for Cardiomyocyte Number Expansion in Preadolescent Mice</dc:title>
+      <dc:creator>Kanar Alkass, Joni Panula, Mattias Westman, Ting-Di Wu, Jean-Luc Guerquin-Kern, Olaf Bergmann</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.035</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Matters Arising</prism:section>
+      <prism:startingPage>1026</prism:startingPage>
+      <prism:endingPage>1036</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01348-3?rss=yes">
+      <title>Estrogen Receptor β Modulates Apoptosis Complexes and the Inflammasome to Drive the Pathogenesis of Endometriosis</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01348-3?rss=yes</link>
+      <description>Estrogen receptor β (ERβ) plays a unique role in endometriotic tissue, where it interacts with the cytoplasmic apoptotic machinery and inflammasome complex to prevent TNF-α-induced cell death and enhance adhesion and proliferative activities of endometriotic tissues. This non-genomic action of ERβ has a predominant role in endometriosis progression.</description>
+      <dc:title>Estrogen Receptor β Modulates Apoptosis Complexes and the Inflammasome to Drive the Pathogenesis of Endometriosis</dc:title>
+      <dc:creator>Sang Jun Han, Sung Yun Jung, San-Pin Wu, Shannon M. Hawkins, Mi Jin Park, Satoru Kyo, Jun Qin, John P. Lydon, Sophia Y. Tsai, Ming-Jer Tsai, Francesco J. DeMayo, Bert W. O’Malley</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.034</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>960</prism:startingPage>
+      <prism:endingPage>974</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01341-0?rss=yes">
+      <title>Dissecting Polyclonal Vaccine-Induced Humoral Immunity against HIV Using Systems Serology</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01341-0?rss=yes</link>
+      <description>Systems Serology reveals unique vaccine-induced “fingerprints,” highlighting potential markers of protection against HIV and providing a powerful method for comparing candidate vaccines against pathogens for which correlates of protection remain elusive.</description>
+      <dc:title>Dissecting Polyclonal Vaccine-Induced Humoral Immunity against HIV Using Systems Serology</dc:title>
+      <dc:creator>Amy W. Chung, Manu P. Kumar, Kelly B. Arnold, Wen Han Yu, Matthew K. Schoen, Laura J. Dunphy, Todd J. Suscovich, Nicole Frahm, Caitlyn Linde, Alison E. Mahan, Michelle Hoffner, Hendrik Streeck, Margaret E. Ackerman, M. Juliana McElrath, Hanneke Schuitemaker, Maria G. Pau, Lindsey R. Baden, Jerome H. Kim, Nelson L. Michael, Dan H. Barouch, Douglas A. Lauffenburger, Galit Alter</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.027</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>988</prism:startingPage>
+      <prism:endingPage>998</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01340-9?rss=yes">
+      <title>Stable Chromosome Condensation Revealed by Chromosome Conformation Capture</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01340-9?rss=yes</link>
+      <description>Analysis of polytene bands, which are shown to correspond to topologically associating domains in interphase nuclei, reveals two stable forms of folded chromatin within euchromatic regions of diploid cells that are distinct from more highly structured heterochromatin.</description>
+      <dc:title>Stable Chromosome Condensation Revealed by Chromosome Conformation Capture</dc:title>
+      <dc:creator>Kyle P. Eagen, Tom A. Hartl, Roger D. Kornberg</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.026</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>934</prism:startingPage>
+      <prism:endingPage>946</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01339-2?rss=yes">
+      <title>The Molecular Taxonomy of Primary Prostate Cancer</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01339-2?rss=yes</link>
+      <description>Molecular analysis of 333 primary prostate carcinomas reveals substantial heterogeneity and major subtypes among patients, as well as potentially actionable lesions valuable for clinical management of the disease.</description>
+      <dc:title>The Molecular Taxonomy of Primary Prostate Cancer</dc:title>
+      <dc:creator>The Cancer Genome Atlas Research Network</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.025</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Resource</prism:section>
+      <prism:startingPage>1011</prism:startingPage>
+      <prism:endingPage>1025</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01337-9?rss=yes">
+      <title>Hypervulnerability to Sound Exposure through Impaired Adaptive Proliferation of Peroxisomes</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01337-9?rss=yes</link>
+      <description>Hypervulnerability to sound exposure in pejvakin-deficient mice results from impaired adaptive proliferation of peroxisomes in response to the oxidative stress. In wild-type mice, loud sounds elicit adaptive peroxisomal proliferation.</description>
+      <dc:title>Hypervulnerability to Sound Exposure through Impaired Adaptive Proliferation of Peroxisomes</dc:title>
+      <dc:creator>Sedigheh Delmaghani, Jean Defourny, Asadollah Aghaie, Maryline Beurg, Didier Dulon, Nicolas Thelen, Isabelle Perfettini, Tibor Zelles, Mate Aller, Anaïs Meyer, Alice Emptoz, Fabrice Giraudet, Michel Leibovici, Sylvie Dartevelle, Guillaume Soubigou, Marc Thiry, E. Sylvester Vizi, Saaid Safieddine, Jean-Pierre Hardelin, Paul Avan, Christine Petit</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.023</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>894</prism:startingPage>
+      <prism:endingPage>906</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01336-7?rss=yes">
+      <title>Vesicle-Mediated Steroid Hormone Secretion in </title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01336-7?rss=yes</link>
+      <description>The release of the steroid hormone ecdysone in Drosophila is mediated through a vesicular trafficking mechanism regulated via calcium signaling, suggesting that steroid hormones may be actively released from cells, as opposed to simply diffusing across the membrane.</description>
+      <dc:title>Vesicle-Mediated Steroid Hormone Secretion in </dc:title>
+      <dc:creator>Naoki Yamanaka, Guillermo Marqués, Michael B. O’Connor</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.022</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>907</prism:startingPage>
+      <prism:endingPage>919</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01327-6?rss=yes">
+      <title>53BP1 and the LINC Complex Promote Microtubule-Dependent DSB Mobility and DNA Repair</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01327-6?rss=yes</link>
+      <description>Increased chromatin mobility at sites of double-stranded breaks is mediated by 53BP1, SUN1/2 in the nuclear envelope, and microtubule dynamics and contributes to aberrant DNA repair in cells with multiple DNA breaks.</description>
+      <dc:title>53BP1 and the LINC Complex Promote Microtubule-Dependent DSB Mobility and DNA Repair</dc:title>
+      <dc:creator>Francisca Lottersberger, Roos Anna Karssemeijer, Nadya Dimitrova, Titia de Lange</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.09.057</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>880</prism:startingPage>
+      <prism:endingPage>893</prism:endingPage>
+   </item>
+   <item rdf:about="http://www.cell.com/cell/abstract/S0092-8674(15)01326-4?rss=yes">
+      <title>Fezf2 Orchestrates a Thymic Program of Self-Antigen Expression for Immune Tolerance</title>
+      <link>http://www.cell.com/cell/abstract/S0092-8674(15)01326-4?rss=yes</link>
+      <description>To promote immunological tolerance of one’s own proteins, the protein Fezf2 directly regulates transcription of tissue-restricted antigen genes in in the thymus, where it functions independently and via a distinct pathway from Aire, the transcriptional regulator widely thought to be primarily responsible for self-tolerance.</description>
+      <dc:title>Fezf2 Orchestrates a Thymic Program of Self-Antigen Expression for Immune Tolerance</dc:title>
+      <dc:creator>Hiroyuki Takaba, Yasuyuki Morishita, Yoshihiko Tomofuji, Lynett Danks, Takeshi Nitta, Noriko Komatsu, Tatsuhiko Kodama, Hiroshi Takayanagi</dc:creator>
+      <dc:identifier>10.1016/j.cell.2015.10.013</dc:identifier>
+      <dc:source>Cell 163, 4 (2015)</dc:source>
+      <dc:date>2015-11-05</dc:date>
+      <prism:publicationName>Cell</prism:publicationName>
+      <prism:publicationDate>2015-11-05</prism:publicationDate>
+      <prism:volume>163</prism:volume>
+      <prism:number>4</prism:number>
+      <prism:issueIdentifier>S0092-8674(14)X0048-6</prism:issueIdentifier>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>975</prism:startingPage>
+      <prism:endingPage>987</prism:endingPage>
+   </item>
+</rdf:RDF>
