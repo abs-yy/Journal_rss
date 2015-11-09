@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+B0;95;c#!/usr/local/bin/perl
 use strict;
 use warnings;
 
@@ -49,7 +49,8 @@ For parameters, add "&" to the link and the following to your liking<br>
   / <b>filter</b>= "your filter"    # will filter the description and title with your query (not upper case sensitive & space OK)<br>
   / <b>text</b>=no    # will only $output .=  titles;</p>
 <h4>History</h4>
-<p>2015-11-08 : Alpha version released.
+<p>2015-11-08 : Alpha version 0.01 released.
+2015-11-09 : v0.21 released. Added logging system for fast access for multiple accesses
 </p>
 ';
 
