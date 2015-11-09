@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+B0;95;c#!/usr/local/bin/perl
 use strict;
 use warnings;
 
@@ -83,6 +83,8 @@ foreach my $journal ( sort keys %journals ) {
     $output .=  '<h2 id ='.$journal.'><b>> '.$journal."</h2>".$journals{$journal}."</b>\n\n";
 #    $output .=  '<a href="reader.cgi#top>Return to top</a>'."\n";
 
+## Going to add these parsed elements to hash insted of $output, to fix logging system. 
+## Not saving the output, but saving the hash.
     foreach my $item ($feed->get_item()) {
 	my $flag =  $item->title() =~ /$param{filter}/i || $item->description() =~ /$param{filter}/i ? 1 : 0;
 	if( $flag ) {
