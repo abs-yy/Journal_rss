@@ -5,8 +5,18 @@ use warnings;
 use lib qw {/home/t12968yy/perl5/lib/perl5};
 use XML::FeedPP;
 
-my %journals;
+my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime(time);
+$year += 1900;
+$mon += 1;
 
+if(  -e "log/".$year."_".$mon."_".sprintf("%02d", $mday).".txt" ){
+    open my $fl, "<","log/".$year."_".$mon."_".sprintf("%02d", $mday).".txt";
+    print join("\n", <$fl>)."\n";
+    exit(0);
+}
+
+my %journals;
+my $output;
 ## Journal rss links
 $journals{"Nature"}       = 'http://feeds.nature.com/nature/rss/current';
 $journals{"Nat.Com."}     = 'http://feeds.nature.com/ncomms/rss/current';
@@ -19,8 +29,8 @@ $journals{"DNA-repair"}   = 'http://www.journals.elsevier.com/dna-repair/rss/';
 $journals{"PNAS"}         = 'http://www.pnas.org/rss/current.xml';
 $journals{"Nuc. Acid. Res."}= 'http://nar.oxfordjournals.org/rss/current.xml';
 
-print "Content-type: text/html\n";
-print '
+$output .=  "Content-type: text/html\n";
+$output .=  '
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
@@ -37,45 +47,62 @@ Hosted on Github : https://github.com/t12968yy/Journal_rss
 <p>Access http://web.sfc.keio.ac.jp/~t12968yy/rss/reader.cgi for normal rss.<br>
 For parameters, add "&" to the link and the following to your liking<br>
   / <b>filter</b>= "your filter"    # will filter the description and title with your query (not upper case sensitive & space OK)<br>
-  / <b>text</b>=no    # will only print titles;</p>
+  / <b>text</b>=no    # will only $output .=  titles;</p>
 <h4>History</h4>
 <p>2015-11-08 : Alpha version released.
 </p>
 ';
 
+
+#$ENV{'QUERY_STRING'} = "filter=DNA&text=no";
 my %param = map { /([^=]+)=(.+)/ } (split /&/, $ENV{'QUERY_STRING'});
 $param{$_} =~ s/%20/ / foreach keys %param;
 
-print "<h4>Parameters in cgi</h4>\n<ul>\n";
-print "<li>".$_." : \"".$param{$_}."\"</li>\n" foreach keys %param;
-print "</ul>\n<p>";
-defined $param{filter} ? print 'Filter is set to "', $param{filter}, '"<br>' : print 'No filter, showing all articles<br>';
-defined $param{text} ? print 'Showing only titles<br>' : print 'Showing full text<br>';
-print "</p>\n";
+$output .=  "<h4>Parameters in cgi</h4>\n<ul>\n";
+$output .=  "<li>".$_." : \"".$param{$_}."\"</li>\n" foreach keys %param;
+$output .=  "</ul>\n<p>";
 
-print '<h2 id="top">Journal List</h2>'."\n".'<ul>'."\n";
+
+
+$output .= defined $param{filter} ? 'Filter is set to "'.$param{filter}.'"<br>' : 'No filter, showing all articles<br>';
+$output .= defined $param{text} ? 'Showing only titles<br>' :  'Showing full text<br>';
+$output .=  "</p>\n";
+
+$output .=  '<h2 id="top">Journal List</h2>'."\n".'<ul>'."\n";
 foreach my $journal ( sort keys %journals ) {
-    print '<li><a href="reader.cgi#'.$journal.'">'.$journal.'</a>'."</li>\n";
+    $output .=  '<li><a href="reader.cgi#'.$journal.'">'.$journal.'</a>'."</li>\n";
 }
-print "</ul>\n";
+$output .=  "</ul>\n";
 
 foreach my $journal ( sort keys %journals ) {
-    print '<h2 id ='.$journal.'><b>> '.$journal."</h2>".$journals{$journal}."</b>\n\n";
-#    print '<a href="reader.cgi#top>Return to top</a>'."\n";
+    $output .=  '<h2 id ='.$journal.'><b>> '.$journal."</h2>".$journals{$journal}."</b>\n\n";
+#    $output .=  '<a href="reader.cgi#top>Return to top</a>'."\n";
     my $feed    = XML::FeedPP->new( $journals{$journal} );
     foreach my $item ($feed->get_item()) {
-	my $flag = $item->title() =~ /$param{filter}/i || $item->description() =~ /$param{filter}/i ? 1 : 0;
+	my $flag =  $item->title() =~ /$param{filter}/i || $item->description() =~ /$param{filter}/i ? 1 : 0;
 	if( $flag ) {
-	    print '<h3><b>', $item->title(), "</b></h3>\n";
+	    $output .=  '<h3><b>'.$item->title()."</b></h3>\n";
 	    unless( $param{"text"} eq "no" ) {
-		print '<p>Authors:', $item->author(), "<br>\n" if length $item->author() > 3;
-		print 'Date: ', $item->pubDate(), "</p>\n" if length $item->author() > 3;
-		print '<p>', $item->description(), "</p>\n";
+		$output .=  '<p>Authors:'. $item->author()."<br>\n" if length $item->author() > 3;
+		$output .=  'Date: '. $item->pubDate(). "</p>\n" if length $item->author() > 3;
+		$output .=  '<p>'. $item->description(). "</p>\n";
 	    }
-	    print '<p>URL: <a href=', $item->link(), ">".$item->link()."</a></p>\n\n";
+	    $output .=  '<p>URL: <a href='.$item->link().">".$item->link()."</a></p>\n\n";
 	}
     }
-    print "<p>///</p>\n\n";
+    $output .=  "<p>///</p>\n\n";
 }
 
-print '</body></html>';
+$output .= "<p>Parsed at ".$year."_".$mon."_".sprintf("%02d", $mday)."</p>\n";
+$output .=  '</body></html>';
+print $output;
+
+
+system('touch log/$year."_".$mon."_".sprintf("%02d", $mday).".txt"');
+system('chmod 644log/$year"_".$mon."_".sprintf("%02d", $mday).".txt"');
+open my $fh, ">", "log/".$year."_".$mon."_".sprintf("%02d", $mday).".txt";
+print $fh $output;
+close $fh;
+
+__END__
+
